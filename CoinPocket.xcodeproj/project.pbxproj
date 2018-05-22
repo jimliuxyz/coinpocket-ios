@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15046B3A20B1A8B700760412 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B3920B1A8B700760412 /* LoginViewController.swift */; };
+		15046B3C20B27DAC00760412 /* ServerPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B3B20B27DAC00760412 /* ServerPopupViewController.swift */; };
+		15046B3E20B27E1700760412 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B3D20B27E1700760412 /* Config.swift */; };
+		15046B4120B293F500760412 /* JsonRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4020B293F500760412 /* JsonRPC.swift */; };
+		15046B4420B2C28200760412 /* JsonCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4320B2C28200760412 /* JsonCodec.swift */; };
+		15046B4620B2C7A400760412 /* RpcAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4520B2C7A400760412 /* RpcAPI.swift */; };
+		15046B4820B308B900760412 /* TxReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4720B308B900760412 /* TxReceipt.swift */; };
+		15046B4A20B3BCF100760412 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4920B3BCF100760412 /* MainPresenter.swift */; };
+		15046B5020B3E88E00760412 /* ExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B4F20B3E88E00760412 /* ExtViewController.swift */; };
+		15046B5220B3F2A000760412 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15046B5120B3F2A000760412 /* ToastView.swift */; };
 		154FD0BB20AD5E7F00EE7BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FD0BA20AD5E7F00EE7BEA /* AppDelegate.swift */; };
 		154FD0BD20AD5E7F00EE7BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FD0BC20AD5E7F00EE7BEA /* ViewController.swift */; };
 		154FD0C020AD5E7F00EE7BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154FD0BE20AD5E7F00EE7BEA /* Main.storyboard */; };
 		154FD0C220AD5E8100EE7BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154FD0C120AD5E8100EE7BEA /* Assets.xcassets */; };
-		154FD0C520AD5E8100EE7BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154FD0C320AD5E8100EE7BEA /* LaunchScreen.storyboard */; };
+		154FD0CD20B162D300EE7BEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FD0CC20B162D300EE7BEA /* MainViewController.swift */; };
+		154FD0CF20B16A0A00EE7BEA /* CurrencyPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FD0CE20B16A0A00EE7BEA /* CurrencyPopupViewController.swift */; };
+		F6962566307A42C3A1CFB5A1 /* Pods_CoinPocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F8D6879DCC46D465350013 /* Pods_CoinPocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15046B3920B1A8B700760412 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		15046B3B20B27DAC00760412 /* ServerPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPopupViewController.swift; sourceTree = "<group>"; };
+		15046B3D20B27E1700760412 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		15046B4020B293F500760412 /* JsonRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonRPC.swift; sourceTree = "<group>"; };
+		15046B4320B2C28200760412 /* JsonCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonCodec.swift; sourceTree = "<group>"; };
+		15046B4520B2C7A400760412 /* RpcAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RpcAPI.swift; sourceTree = "<group>"; };
+		15046B4720B308B900760412 /* TxReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxReceipt.swift; sourceTree = "<group>"; };
+		15046B4920B3BCF100760412 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		15046B4F20B3E88E00760412 /* ExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtViewController.swift; sourceTree = "<group>"; };
+		15046B5120B3F2A000760412 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		154FD0B720AD5E7F00EE7BEA /* CoinPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154FD0BA20AD5E7F00EE7BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		154FD0BC20AD5E7F00EE7BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		154FD0BF20AD5E7F00EE7BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		154FD0C120AD5E8100EE7BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		154FD0C420AD5E8100EE7BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		154FD0C620AD5E8100EE7BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154FD0CC20B162D300EE7BEA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		154FD0CE20B16A0A00EE7BEA /* CurrencyPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPopupViewController.swift; sourceTree = "<group>"; };
+		287FE69BA533CDE52B7ACC90 /* Pods-CoinPocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinPocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinPocket/Pods-CoinPocket.release.xcconfig"; sourceTree = "<group>"; };
+		A790728859C79640C6C15FF0 /* Pods-CoinPocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinPocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinPocket/Pods-CoinPocket.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F8D6879DCC46D465350013 /* Pods_CoinPocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinPocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6962566307A42C3A1CFB5A1 /* Pods_CoinPocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15046B3F20B293BD00760412 /* JsonRPC */ = {
+			isa = PBXGroup;
+			children = (
+				15046B4020B293F500760412 /* JsonRPC.swift */,
+				15046B4520B2C7A400760412 /* RpcAPI.swift */,
+			);
+			path = JsonRPC;
+			sourceTree = "<group>";
+		};
+		15046B4220B2C22C00760412 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15046B4320B2C28200760412 /* JsonCodec.swift */,
+				15046B4F20B3E88E00760412 /* ExtViewController.swift */,
+				15046B5120B3F2A000760412 /* ToastView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		154FD0AE20AD5E7F00EE7BEA = {
 			isa = PBXGroup;
 			children = (
 				154FD0B920AD5E7F00EE7BEA /* CoinPocket */,
 				154FD0B820AD5E7F00EE7BEA /* Products */,
+				59EB53373BAC49C908EB6915 /* Pods */,
+				948E8C97D4F23E976E9A019E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,39 @@
 		154FD0B920AD5E7F00EE7BEA /* CoinPocket */ = {
 			isa = PBXGroup;
 			children = (
+				15046B4220B2C22C00760412 /* extensions */,
+				15046B3F20B293BD00760412 /* JsonRPC */,
 				154FD0BA20AD5E7F00EE7BEA /* AppDelegate.swift */,
 				154FD0BC20AD5E7F00EE7BEA /* ViewController.swift */,
 				154FD0BE20AD5E7F00EE7BEA /* Main.storyboard */,
+				15046B4920B3BCF100760412 /* MainPresenter.swift */,
 				154FD0C120AD5E8100EE7BEA /* Assets.xcassets */,
-				154FD0C320AD5E8100EE7BEA /* LaunchScreen.storyboard */,
 				154FD0C620AD5E8100EE7BEA /* Info.plist */,
+				154FD0CC20B162D300EE7BEA /* MainViewController.swift */,
+				154FD0CE20B16A0A00EE7BEA /* CurrencyPopupViewController.swift */,
+				15046B3920B1A8B700760412 /* LoginViewController.swift */,
+				15046B3B20B27DAC00760412 /* ServerPopupViewController.swift */,
+				15046B3D20B27E1700760412 /* Config.swift */,
+				15046B4720B308B900760412 /* TxReceipt.swift */,
 			);
 			path = CoinPocket;
+			sourceTree = "<group>";
+		};
+		59EB53373BAC49C908EB6915 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A790728859C79640C6C15FF0 /* Pods-CoinPocket.debug.xcconfig */,
+				287FE69BA533CDE52B7ACC90 /* Pods-CoinPocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		948E8C97D4F23E976E9A019E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8D6879DCC46D465350013 /* Pods_CoinPocket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154FD0C920AD5E8100EE7BEA /* Build configuration list for PBXNativeTarget "CoinPocket" */;
 			buildPhases = (
+				17E60E4E3EFA612F3DD08189 /* [CP] Check Pods Manifest.lock */,
 				154FD0B320AD5E7F00EE7BEA /* Sources */,
 				154FD0B420AD5E7F00EE7BEA /* Frameworks */,
 				154FD0B520AD5E7F00EE7BEA /* Resources */,
+				8B00758FB1AA86E151D7EBDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 154FD0B220AD5E7F00EE7BEA /* Build configuration list for PBXProject "CoinPocket" */;
+			buildConfigurationList = 154FD0B220AD5E7F00EE7BEA /* Build configuration list for PBXProject "CoinPocket_" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +197,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154FD0C520AD5E8100EE7BEA /* LaunchScreen.storyboard in Resources */,
 				154FD0C220AD5E8100EE7BEA /* Assets.xcassets in Resources */,
 				154FD0C020AD5E7F00EE7BEA /* Main.storyboard in Resources */,
 			);
@@ -130,13 +204,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17E60E4E3EFA612F3DD08189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinPocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B00758FB1AA86E151D7EBDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoinPocket/Pods-CoinPocket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinPocket/Pods-CoinPocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		154FD0B320AD5E7F00EE7BEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154FD0CD20B162D300EE7BEA /* MainViewController.swift in Sources */,
 				154FD0BD20AD5E7F00EE7BEA /* ViewController.swift in Sources */,
+				15046B4620B2C7A400760412 /* RpcAPI.swift in Sources */,
+				15046B3C20B27DAC00760412 /* ServerPopupViewController.swift in Sources */,
+				15046B5020B3E88E00760412 /* ExtViewController.swift in Sources */,
+				15046B4420B2C28200760412 /* JsonCodec.swift in Sources */,
+				15046B3E20B27E1700760412 /* Config.swift in Sources */,
+				15046B4820B308B900760412 /* TxReceipt.swift in Sources */,
+				15046B5220B3F2A000760412 /* ToastView.swift in Sources */,
+				15046B4A20B3BCF100760412 /* MainPresenter.swift in Sources */,
+				154FD0CF20B16A0A00EE7BEA /* CurrencyPopupViewController.swift in Sources */,
+				15046B3A20B1A8B700760412 /* LoginViewController.swift in Sources */,
 				154FD0BB20AD5E7F00EE7BEA /* AppDelegate.swift in Sources */,
+				15046B4120B293F500760412 /* JsonRPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +276,6 @@
 				154FD0BF20AD5E7F00EE7BEA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		154FD0C320AD5E8100EE7BEA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				154FD0C420AD5E8100EE7BEA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +397,7 @@
 		};
 		154FD0CA20AD5E8100EE7BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A790728859C79640C6C15FF0 /* Pods-CoinPocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +416,7 @@
 		};
 		154FD0CB20AD5E8100EE7BEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287FE69BA533CDE52B7ACC90 /* Pods-CoinPocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		154FD0B220AD5E7F00EE7BEA /* Build configuration list for PBXProject "CoinPocket" */ = {
+		154FD0B220AD5E7F00EE7BEA /* Build configuration list for PBXProject "CoinPocket_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				154FD0C720AD5E8100EE7BEA /* Debug */,

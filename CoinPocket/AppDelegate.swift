@@ -16,6 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        let userDefaultsDefaults:[String : Any] = [
+//            "server" : "ec2-18-221-14-16.us-east-2.compute.amazonaws.com",
+//            "port" : 8081,
+//            "server_aws" : "ec2-18-221-14-16.us-east-2.compute.amazonaws.com",
+//            "server_local" : "192.168.1.101",
+//            "user" : "guest"
+//            ]
+//        UserDefaults.standard.register(defaults: userDefaultsDefaults)
+        
+//        print(UserDefaults.standard.integer(forKey: "x"))
+//        print(UserDefaults.standard.integer(forKey: "x"))
+//        print(Config.udef.integer(forKey: "x"))
+//        print(Config.udef.integer(forKey: "x"))
+
         return true
     }
 
